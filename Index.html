@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="2.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+<style>
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background: #202537;
+  color: white;
+  font-family: 'poppins', sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  background: #210d6a;
+  width: 100%;
+  
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover{
+  
+  color: rgb(160, 182, 255);
+  font-size: 1.05rem;
+}
+.left{
+  font-size: 1.9rem;
+}
+.line{
+  /* height: 0px; */
+  border: 0px;
+  background-color: #7149ff;
+  height: 4px;
+  padding: 2px;
+  border-radius: 10px;
+  margin: 22px 45px;
+}
+#element{
+  color: rgb(185, 185, 255);
+}
+.secondsection h1{
+  font-size: 1.9rem;
+
+}
+.secondsection{
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.text-gry{
+  color: rgb(106, 106, 106);
+}
+.firstsection{
+  display: flex;
+  justify-content: space-around;
+  /* margin: 23px 0; */
+  align-items: center;
+  
+
+}
+.firstsection div{
+width: 30%;
+}
+.leftsection{
+font-size: 3rem;
+
+}
+.rightsection img{
+  width: 92%;
+  margin: 50px 0;
+  
+  
+  }
+  .yellow{
+      color:rgb(182, 182, 255);
+  }
+
+  .secondsection .box{
+      background:white;
+      width: 78vw;
+      height: 2px;
+      margin: 20px 7px;
+      /* align-items: center; */
+      display: flex;
+      /* left: 23px; */
+
+  }
+
+   .secondsection .vertical{
+      height: 200px;
+      width: 107px;
+      border: white;
+      margin:22px 68px ;
+      border-width: 2px ;
+
+      /* border-width: 2px;
+      background-color: #eea5de;
+       */
+  }
+  </style>
+
+
+
+  <body>
+    <header>
+      <nav>
+        <div class="left">Abhishek's Portfolio</div> 
+        <div class="right"></div>
+        <ul>
+          <li><a href="/">Home</li></a>
+          <li><a href="/">About</li></a>
+          <li><a href="/">Services</li></a>
+          <li><a href="/">Projects</li></a>
+          <li><a href="/">Contact</li></a>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, my name is <span class="yellow"> Abhishek</span>
+        <span>and I'm a passionate </span>
+        <span id="element"></span>
+        </div>
+        <div class="rightsection">
+            <img src="bg.png" alt="">
+        </div>
+      </section> 
+      <hr class="line">
+
+      <section class="secondsection">
+        <span class="text-gry">What I have done so far </span>
+      <h1>Work experience</h1>
+      
+      <div class="box">
+        <div class="vertical"><h6>HTML CSS JS PHP<br> Developer <br>(2021-2024) <br> (FRONTEND)<h6></div>
+        <div class="vertical"><h6> NODE JS <br>JQUERY (2021-2024) <br>(BACKEND) </h6></div>
+        <div class="vertical">MS SQL <br> MY SQL<br>(2021-2024) <br>(DATABASE)</div>
+        </div>
+      </section>
+    </main>
+    
+
+    <cript src="3.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+      <script>
+        var typed = new Typed('#element', {
+          strings: ['Tester', '&amp; Web Developer.'],
+          typeSpeed: 50,
+        });
+      </script>
+  </body>
+</html>
+  time:42
